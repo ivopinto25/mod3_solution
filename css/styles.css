@@ -1,0 +1,66 @@
+#header-nav {
+  background-color: #8a6d3b;
+  border-radius: 0;
+  border: 0;
+}
+#header-nav .navbar-brand a{
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+#nav-list{
+  background: white;
+  border: 1px solid #e7e7e7;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#nav-list hr{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #e7e7e7;
+}
+
+#header-nav span.icon-bar{
+  background: #e7e7e7;
+}
+
+#header-nav .navbar-toggle:hover span.icon-bar, #header-nav .navbar-toggle:focus span.icon-bar{
+  background: #888;
+}
+
+.text-center{
+  color: #8a6d3b;
+  font-family: "Montserrat ExtraBold";
+  padding-bottom: 10px;
+}
+
+#chicken, #beef, #sushi p {
+  font-family: "Montserrat Medium";
+  color: #000000;
+}
+
+#sushi a {
+  font-family: "Montserrat Medium";
+}
+
+.menu-header{
+  margin-bottom: 40px;
+}
+.menu-content{
+  background: #cccccc;
+  margin-bottom: 20px;
+}
